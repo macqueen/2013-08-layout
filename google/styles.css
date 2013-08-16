@@ -1,3 +1,29 @@
-body {
-  /* rules go here */
+html, body {
+  height:100%;
+}
+
+.topbar {
+  background-color: black;
+  height: 35px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.nav {
+  display: inline;
+  vertical-align: middle;
+  padding-left: 0;
+  line-height: 35px;
+  top: 50%;
+  /*float: left;*/
+  width: 100%;
+}
+
+li {
+  color: gray;
+  list-style: none;
+  margin: 5px;
+  display: inline;
 }
