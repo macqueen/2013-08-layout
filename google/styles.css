@@ -28,6 +28,12 @@ li {
   margin: 5px;
 }
 
+.signUpButton {
+  float: right;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
 .logo {
   display: block;
   height: 100px;
@@ -42,4 +48,20 @@ li {
   top: 50%;
   margin-top: -50px;
   width: 100%;
+}
+
+input {
+  border-color: #351BE0;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 350px;
+}
+
+.buttContainer {
+  margin-top: 10px;
+  text-align: center;
 }
