@@ -1,3 +1,46 @@
-body{
-  /* rules go here */
+html, body {
+  height: 100%;
+}
+
+.container {
+  height:100%
+}
+
+.navContainer {
+  border-bottom: black solid;
+  border-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+/*  margin-top: 50px;*/
+  width:60%;
+}
+
+.logo{
+  display: inline;
+}
+
+.nav {
+ display: inline;
+}
+
+/*.imgContainer {
+  float: left;
+}
+
+.liContainer {
+  float:left;
+}*/
+
+li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 20px;
+}
+
+header, h1 {
+  clear: left;
+}
+
+.signIn {
+  
 }
