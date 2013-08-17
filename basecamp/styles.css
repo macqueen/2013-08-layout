@@ -37,10 +37,27 @@ li {
   margin-left: 20px;
 }
 
-header, h1 {
-  clear: left;
+header {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  margin-top: 50px; 
 }
 
-.signIn {
-  
+.contentContainer {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
 }
+
+/*h1 {
+  text-align: center;
+}*/
+/*.signIn {
+
+}
+
+h1 {
+  width: 50%;
+}*/
